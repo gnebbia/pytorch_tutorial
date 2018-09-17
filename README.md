@@ -318,7 +318,6 @@ from torch.utils import data
 
 class Dataset(data.Dataset):
   def __init__(self, df):
-ELoss(size_average = False)
         # but we are interested only in certainn columns (i.e., fields),
         # this is a scenario for example where some of the columns in our initial dataset
         # are metadata or information which we do not need/want to use in our training/validation
